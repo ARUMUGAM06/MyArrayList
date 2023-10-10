@@ -1,6 +1,6 @@
 
-public class MyArrayList<t> {
-    Object[] arr;
+public class MyArrayList<t> {   //generics has been added to type safety and Object class has been utilized to tell the java which type of an object has been passed
+    Object[] arr;               //by using Object class && generics we need not to duplicate the again and again for each datatypes
     private int point=0;
     public MyArrayList(int size){
         this.arr=new Object[size];
